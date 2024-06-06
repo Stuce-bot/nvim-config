@@ -25,24 +25,25 @@ Most of what I needed was availible and already configured with sane defaults in
 ### Learning Vim
 Journal of what I did learn/want to learn in order, by categories, to serve as a roadmap and a journal on my vim journey.
 #### Simple navigation
-- [x] did vim tutor
-- [x] got used to arrow keys and modes
-- [x] confortable yanking and visual mode (v, shift v, ctrl v)
-- [ ] add shortcut to move selected lines up and down (or learn what is by default in lazy)
-- [ ] learn sorround
-- [ ] learn to use quickfix/warning list
+- [x] Do vim tutor
+- [x] Get used to arrow keys and modes
+- [x] Get used to yanking (muscle memory)
+- [ ] Get used to visual mode basics (v, shift v, ctrl v)
+- [ ] Add shortcut to move selected lines up and down (or learn what is by default in lazy)
+- [ ] Learn sorround
+- [ ] Learn to use quickfix/warning list
 #### Git plugins
-- [x] check out git lines plugin
-- [x] check out fugitive
-- [x] choose terminal or fugitive (in the end on tiling wm just go to terminal)
-- [ ] find reliable merge method
+- [x] Check out git lines plugin
+- [x] Check out fugitive
+- [x] Choose terminal or fugitive (in the end on tiling wm just go to terminal)
+- [ ] Find reliable merge method (maybe another tui program instead of vim, like lazygit or gitui)
 #### Moving around files
 - [x] Get used to telescope (insanely good)
 - [x] Check out Harpoon (insanely good)
 - [x] Check out buffer plugins (did not like it)
 - [ ] Get used to Harpoon
 - [ ] Check out undoTree
-- [ ] Need shortcut for :Ex
+- [ ] Set shortcut for :Ex (can use space e now that nvim-tree is out)
 ### LSP/Refactoring
 ### Debugging
 ### Testing
