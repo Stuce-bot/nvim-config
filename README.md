@@ -1,56 +1,48 @@
 # 💤 LazyVim
 
-My own lazyvim config [LazyVim](https://github.com/LazyVim/LazyVim).
+My own neovim config using [LazyVim](https://github.com/LazyVim/LazyVim).
 
 ## Installation
-### backup
-  ```sh
-  mv ~/.config/nvim ~/.config/nvim.bak
-  mv ~/.local/share/nvim ~/.local/share/nvim.bak
-  ```
-### install
   ```sh
   git clone https://github.com/Stuce-bot/config.nvim ~/.config/nvim
   ```
-### restore
-  ```sh
-  mv ~/.config/nvim.bak ~/.config/nvim
-  mv ~/.local/share/nvim.bak ~/.local/share/nvim
-  ```
-### uninstall
-  ```sh
-  rm ~/.config/nvim
-  rm ~/.local/share/nvim
-  ```
-## Customisation and learning roadmap
-A simple roadmap of where I am in learning neovim, to keep track of what I am comfortable doing, what should be eventually customized and what I causes me trouble / what I want to fix.
-### Forking kickstart.nvim
-Using a fork of kickstart.nvim to learn about both how to use and how to configure neovim.
+## Motivations
+I decided that I needed to learn how to use my ide properly, but VSCode beeing the huge monolith full of functionalities that it is, I did not know where to start, and how to start.
+That's why I decided to use Neovim, starting with a minimal editor and working up building the tools I need for both efficient and agreable programming.
+## Progress journal
+### Scaffold
+#### Primeagen 0 to lsp
+Started by watching the primeagen 0 to lsp video, where he explains how to get started adding plugins to have basic things like autocompletion and LSP support, but the config ended up beeing a mess although I had learned a lot, so I decided to use kickstart, a well made template that gives you the basics.
+That's where I learned about telescope and harpoon to navigate.
+#### Forking kickstart.nvim
+After migrating to kickstart, I did manage to have a cleaner config and started adding plugins bit by bit to answer my needs, but I soon noticed that if I want to configure the UI, it will be a pain, and I am very lazy when it comes to configuring new LSPs and stuff.
+That's where I did learn about <Ctrl-y> to accept propositions instead of tab and enter, and I really love having my tab simply do tab and my backspace simply do backspace.
+#### Using Lazyvim
+Once I got confortable and had my essential plugin selection, I decided to use Lazyvim and simply disable what I dont need, like the tabs and neovim-tree.
+Most of what I needed was availible and already configured with sane defaults in extra, which is a really big plus.
 ### Theming 
-- Installed catppuccin
-### Simple navigation
-- got used to arrow keys and modes
-- need to learn to use treesitter to move/select
-- confortable yanking and visual mode
-- eventually change x behavior to not put in buffer and c behavior to not enable insert mode
-- need to add shortcut to move selected lines up and down
-- add relative number toggle shortcut ?
-- learn to use quickfix list
-### Git plugins
-- love the git lines plugin
-- need to see what can be done with the git plugins
-- prefer terminal over fugitive
-- find reliable merge method
-### LSP
-- Need to include metals in a nicer way
-### Moving around
-- Getting used to telescope
-- Harpoon is super nice
-- thinking about undoTree
-- Need shortcut for :Ex
-### Familiarizing with the template
-- check sets and keymaps
-- make reason of lsp and integrate with local lsp servers
-### Migrate to lazyvim
-Decided to migrate to lazyvim to make things easier, and have a nice ui out of the box.
-But since I went with kickstart first, I do understand the config and what does what more.
+- Installed catppuccin, the rest is basically vanilla LazyVim as the defaults are already beautifull enough
+### Learning Vim
+Journal of what I did learn/want to learn in order, by categories, to serve as a roadmap and a journal on my vim journey.
+#### Simple navigation
+- [x] did vim tutor
+- [x] got used to arrow keys and modes
+- [x] confortable yanking and visual mode (v, shift v, ctrl v)
+- [ ] add shortcut to move selected lines up and down (or learn what is by default in lazy)
+- [ ] learn sorround
+- [ ] learn to use quickfix/warning list
+#### Git plugins
+- [x] check out git lines plugin
+- [x] check out fugitive
+- [x] choose terminal or fugitive (in the end on tiling wm just go to terminal)
+- [ ] find reliable merge method
+#### Moving around files
+- [x] Get used to telescope (insanely good)
+- [x] Check out Harpoon (insanely good)
+- [x] Check out buffer plugins (did not like it)
+- [ ] Get used to Harpoon
+- [ ] Check out undoTree
+- [ ] Need shortcut for :Ex
+### LSP/Refactoring
+### Debugging
+### Testing
