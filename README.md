@@ -16,7 +16,7 @@ Started by watching the primeagen 0 to lsp video, where he explains how to get s
 That's where I learned about telescope and harpoon to navigate.
 #### Forking kickstart.nvim
 After migrating to kickstart, I did manage to have a cleaner config and started adding plugins bit by bit to answer my needs, but I soon noticed that if I want to configure the UI, it will be a pain, and I am very lazy when it comes to configuring new LSPs and stuff.
-That's where I did learn about <Ctrl-y> to accept propositions instead of tab and enter, and I really love having my tab simply do tab and my backspace simply do backspace.
+That's where I did learn about Ctrl-y to accept propositions instead of tab and enter, and I really love having my tab simply do tab and my backspace simply do backspace.
 #### Using Lazyvim
 Once I got confortable and had my essential plugin selection, I decided to use Lazyvim and simply disable what I dont need, like the tabs and neovim-tree.
 Most of what I needed was availible and already configured with sane defaults in extra, which is a really big plus.
